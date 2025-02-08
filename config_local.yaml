@@ -1,0 +1,12 @@
+# Caminhos para os dados de treinamento, validação e teste
+path: /dataset # Talvez seja necessário colocar o caminho completo do diretório dataset
+
+train: train/images
+val: val/images
+test: test/images
+
+# Número de classes
+nc: 2
+
+# Nomes das classes
+names: ['PS1', 'PS4']

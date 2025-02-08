@@ -1,0 +1,12 @@
+# Caminhos para os dados de treinamento, validação e teste
+path: /content/dataset
+
+train: train/images
+val: val/images
+test: test/images
+
+# Número de classes
+nc: 2
+
+# Nomes das classes
+names: ['PS1', 'PS4']
