@@ -2,7 +2,8 @@
 from ultralytics import YOLO
 
 # Carregar o modelo YOLO
-model = YOLO('yolov10m.pt')
+# Será necessário baixar o arquivo yolov10m.pt disponível no site YOLOv10.
+model = YOLO('yolov10m.pt') # Altere o nome caso for utilizar outra versão.
 
 # Iniciar o treinamento
 model.train(data='config_local.yaml', epochs=100)
